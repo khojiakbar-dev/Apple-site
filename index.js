@@ -35,7 +35,6 @@ btns.forEach((btn) => {
 btn.onclick = () => {
     let color = btn.getAttribute('data-color')
     let imgB = iphones[color]
-    
     img.style.backgroundImage = `url("${imgB} )`
 
     img.style.transition = '1s'
@@ -133,14 +132,14 @@ cls_btn.onclick = () => {
 open_item.forEach(item => {
     item.onclick = () =>{
         item.style.height = '150px'
-        item.style.background = 'antiquewhite'
+        item.style.background = 'firebrick'
     }
 })
 
 
 open_item.forEach(itemTwo => {
     itemTwo.onmouseleave = () =>{
-        itemTwo.style.height = '100px'
-        itemTwo.style.background = '#c4c4c4'
+        itemTwo.style.height = '55px'
+        itemTwo.style.background = 'violet'
     }
 })

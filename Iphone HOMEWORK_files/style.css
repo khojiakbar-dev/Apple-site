@@ -627,23 +627,26 @@ header a:hover {
     display: flex;
     flex-direction: column;
     width: 70%;
-    background-color: aqua;
     margin: 0 auto;
     margin-top: 10px;
+    gap: 10px;
 }
 .accardion .item {
     width: 100%;
-    background-color: #c4c4c4;
-    padding: 20px;
-    height: 80px;
+    background-color: violet ;
+    color: white;
+    border-radius: 10px;
+    padding-top: 15px ;
+    padding-left: 10px;
+    height: 55px;
     overflow: hidden;
     transition: .5s ease;
 
     cursor: pointer;
 }
-.accardion .item h1 {
-    margin-bottom: 20px;
-    font-size: 18px;
+.accardion .item h3 {
+    margin-bottom: 13px;
+    font-size: 20px;
 }
 
 /* .accardion .item:hover {
